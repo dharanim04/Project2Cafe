@@ -185,7 +185,10 @@ ul li {
 .divfooterLinks {
   justify-self: center;
 }
-.logoimgfooter,
+.logoimgfooter {
+  height: 4em;
+  margin: 2em;
+}
 .divfooterLinks ul li img {
   /* width: 3em; */
   height: 3em;

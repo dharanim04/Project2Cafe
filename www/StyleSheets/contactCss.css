@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: dimgray;
+}
+.addressCls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+h1 {
+  padding: 2em 0;
+  font-size: 2em;
+  font-weight: 550;
+  font-family: "Anton", sans-serif;
+}
+.gridAddress {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+address {
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Anton", sans-serif;
+}
+address a {
+  text-decoration: none;
+}
+.clsGoogleMapImg {
+  padding: 5em 0 4em 0;
+  height: 40em;
+  width: 50%;
+}
