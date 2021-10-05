@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: dimgray;
+}
+.addressCls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+h2 {
+  padding: 2em 0;
+  font-size: 2em;
+  font-weight: 550;
+  font-family: "Anton", sans-serif;
+}
+.gridAddress {
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+address {
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Anton", sans-serif;
+}
+address a {
+  text-decoration: none;
+}
+.clsGoogleMapImg {
+  padding: 5em 0 4em 0;
+  height: 40em;
+  width: 50%;
+}
+/* form  */
+.formDiv1 {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 70%; */
+  margin: 0 0 2rem 0;
+}
+.form-group > label {
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+}
+.form-group > input {
+  height: 3rem;
+}
+.form-group > button {
+  background-color: rgb(186, 194, 200);
+  color: #fff;
+  /* justify-items: center; */
+  align-self: center;
+  width: 40%;
+  height: 4rem;
+  font-size: 1.3em;
+  font-weight: 800;
+  border-radius: 0.3em;
+}
+.form-control {
+  min-height: 2rem;
+  background-color: rgb(186, 194, 200);
+  font-size: 1.3em;
+}
