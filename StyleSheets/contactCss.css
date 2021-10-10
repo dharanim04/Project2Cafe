@@ -71,3 +71,7 @@ address a {
   background-color: rgb(186, 194, 200);
   font-size: 1.3em;
 }
+.errorMessage {
+  color: red;
+  font-size: small;
+}

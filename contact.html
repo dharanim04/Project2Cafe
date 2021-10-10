@@ -53,11 +53,11 @@
             />
           </div>
           <div class="form-group">
-            <label for="firsname">Prénom *</label>
+            <label for="firstname">Prénom *</label>
             <input
               type="text"
               class="form-control"
-              id="firsname"
+              id="firstname"
               aria-describedby="enter name"
             />
           </div>
@@ -84,7 +84,10 @@
             <textarea class="form-control" id="message" rows="3"></textarea>
           </div>
           <div class="form-group">
-            <button type="submit">ENVOYER</button>
+            <span id="errorMsg" class="errorMessage"></span>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="btnSubmit">ENVOYER</button>
           </div>
         </form>
         <div></div>
@@ -129,5 +132,6 @@
         </div>
       </nav>
     </footer>
+    <script src="./javascript/contact.js"></script>
   </body>
 </html>
